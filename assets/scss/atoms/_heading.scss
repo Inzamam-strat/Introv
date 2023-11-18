@@ -1,0 +1,22 @@
+.iv-heading {
+    font-size: 50px;
+    font-weight: 800;
+    color: var(--clr-main-blue);
+    text-align: center;
+    margin-bottom: $spacer-3;
+
+    &--white {
+        color: var(--clr-white);
+    }
+    &--sub {
+        font-size: 40px;
+        font-weight: 400;
+        color: var(--clr-heading-blk);
+    }
+}
+
+@include mobile {
+    .iv-heading {
+        font-size: 28px;
+    }
+}
