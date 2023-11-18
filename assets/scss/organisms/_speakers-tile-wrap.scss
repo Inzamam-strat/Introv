@@ -1,0 +1,43 @@
+.iv-speakers{
+    background-color:var(--clr-grey);
+    padding: $spacer-6 0;
+    &-bg{
+        background-repeat: no-repeat;
+        background-position: center top;
+        background-size: contain;
+        &--cover{
+            background-size: cover; 
+        }
+    }
+    &__in{
+        background-color:var(--clr-white);
+        border-radius: 20px;
+        padding: $spacer-6;
+    }
+    .iv-heading{
+        margin-bottom: $spacer-6;
+    }
+    &__tile{
+        margin-bottom: $spacer-6;
+        &:last-child{
+            margin-bottom: 0;
+        }
+    }
+}
+@include mobile{
+    .iv-speakers{
+        &__tile{
+            flex-direction: column;
+            &-img{
+                margin-right: 0;
+                margin-bottom: $spacer-4;
+            }
+            &-name{
+                font-size: $spacer-4;
+            }
+            &-desg{
+                font-size: $spacer-3;
+            }
+        }
+    }
+}
