@@ -1,0 +1,14 @@
+.iv-banner-title {
+    background-color: var(--clr-main-blue);
+    padding: $spacer-4 0;
+    .iv-heading {
+        &--white {
+            margin-bottom: $spacer-4;
+        }
+ 
+        &--sub {
+            color: var(--clr-white);
+        }
+    }
+
+}
