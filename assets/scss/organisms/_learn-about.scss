@@ -1,0 +1,17 @@
+.iv-learn {
+    position: absolute;
+    width: 100%;
+    min-height: 860px;
+    top: 0;
+    left: 0;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: $spacer-5 $spacer-0;
+    .iv-heading {
+        margin-bottom: $spacer-6;
+    }
+    &__outer {
+        width: 100%;
+    }
+}
