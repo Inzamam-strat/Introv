@@ -1,0 +1,41 @@
+.iv-footer{
+    background-color: var(--clr-black1);
+    padding: $spacer-2 0;
+   &__list{
+        display: flex;
+        margin: 0;
+        list-style: none;
+   }
+   &__item{
+    font-size: 14px;
+    margin-right: $spacer-4;
+    color: var(--clr-white);
+    &:last-child{
+        margin-left: auto;
+        margin-right: 0;
+    }
+   }
+   &__link{
+    font-size: 14px;
+    color: var(--clr-white);
+    transition: all .5s;
+    &:hover{
+        color: var(--clr-main-blue);
+    }
+   }
+}
+@include mobile{
+    .iv-footer{
+        &__list{
+            flex-direction: column;
+       } 
+       &__item{
+        margin-bottom: $spacer-2;
+        &:last-child{
+            margin-left:0;
+            margin-right: 0;
+            margin-bottom: 0;
+        }
+       }
+    }
+}
