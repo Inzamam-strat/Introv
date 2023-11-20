@@ -8,6 +8,7 @@
     &--white {
         color: var(--clr-white);
     }
+
     &--sub {
         font-size: 40px;
         font-weight: 400;
@@ -17,6 +18,10 @@
 
 @include mobile {
     .iv-heading {
-        font-size: 28px;
+        font-size: 30px;
+
+        &--sub {
+            font-size: 24px;
+        }
     }
 }
