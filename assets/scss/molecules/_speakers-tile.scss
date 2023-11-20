@@ -1,0 +1,51 @@
+.iv-speakers{
+    &__tile{
+        display: flex;
+        align-items: center;
+        &-img{
+            width: 245px;
+            height: 245px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: $spacer-4;
+            img{
+                width: 100%;
+            }
+        }
+        &-desc{
+            width: 100%;
+            flex: 1;
+        }
+        &-name{
+            font-size: 30px;
+            color: var(--clr-main-blue);
+            font-weight: $font-bold;
+            line-height: 1;
+        }
+        &-desg{
+            font-size:26px;
+            color: var(--clr-blk-txt);
+            font-weight: $font-bold;
+            margin-bottom: $spacer-2;
+        }
+        &-liast{
+            margin: 0;
+            list-style: none;
+        }
+        &-item{
+            position: relative;
+            padding-left: $spacer-3;
+            color: var(--clr-blk-txt);
+            &:before{
+                left: 0;
+                top:8px;
+                width: 7px;
+                height: 7px;
+                background:var(--clr-blk-txt);
+                position: absolute;
+                content: "";
+                border-radius: 50%;
+            }
+        }
+    }
+}
