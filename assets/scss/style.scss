@@ -13,10 +13,18 @@
 // molecule
 @import "molecules/learn-about-tile";
 @import "molecules/speakers-tile";
+@import "molecules/form";
 // organisms
 @import "organisms/speakers-tile-wrap";
+@import "organisms/learn-about";
+@import "organisms/seminar-themes";
+@import "organisms/event";
 @import "organisms/seminar-program";
 @import "organisms/footer";
+@import "organisms/banner";
+@import "organisms/features";
+@import "organisms/title";
 // pages
 @import "organisms/seminar-themes";
 @import "organisms/event";
+
