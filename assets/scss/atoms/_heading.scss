@@ -1,5 +1,5 @@
 .iv-heading {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 800;
     color: var(--clr-main-blue);
     text-align: center;
@@ -10,12 +10,21 @@
     }
 
     &--sub {
-        font-size: 40px;
+        font-size: 38px;
         font-weight: 400;
         color: var(--clr-heading-blk);
     }
 }
 
+@include tablet {
+    .iv-heading {
+        font-size: 35px;
+
+        &--sub {
+            font-size: 28px;
+        }
+    }
+}
 @include mobile {
     .iv-heading {
         font-size: 30px;
