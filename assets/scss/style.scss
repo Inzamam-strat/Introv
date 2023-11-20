@@ -9,10 +9,14 @@
 
 // atoms
 @import "atoms/heading";
+@import "atoms/button";
 // molecule
+@import "molecules/learn-about-tile";
 @import "molecules/speakers-tile";
 // organisms
 @import "organisms/speakers-tile-wrap";
 @import "organisms/seminar-program";
 @import "organisms/footer";
+// pages
+@import "organisms/seminar-themes";
 // pages
