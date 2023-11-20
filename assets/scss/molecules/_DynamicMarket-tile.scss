@@ -1,0 +1,26 @@
+.iv-DynamicMarket{
+    &__tile{
+        border: 1px solid var(--clr-main-blue);
+        padding:30px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 20px;
+        &-icn{
+            margin-bottom: $spacer-3;
+            svg{
+                width: 100%;
+                height: 120px;
+                path{
+                    stroke:var(--clr-grey1);
+                }
+            }
+        }
+        &-body{
+            color: var(--clr-grey1);
+            font-size: 30px;
+            font-weight: $font-regular;
+            text-align: center;
+        }
+    }
+}
