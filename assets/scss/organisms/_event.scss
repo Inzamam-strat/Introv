@@ -13,6 +13,7 @@
         .iv-heading {
             margin-bottom: 8px;
             line-height: 1.2;
+            width: 50%;
         }
     }
 
@@ -45,9 +46,10 @@
     }
 
     &__btn {
+        width: 25%;
         .iv-btn {
             font-size: 24px;
-            padding: 12px 32px;
+            padding: 12px 40px;
         }
     }
 
@@ -55,6 +57,7 @@
         .iv-heading {
             color: var(--clr-heading-blk);
             margin-bottom: 16px;
+            width: 100%;
         }
 
         .iv-event__btn {
@@ -85,6 +88,11 @@
 
 @include mobile {
     .iv-event {
+        &__outer {
+            .iv-heading {
+                width: 100%;
+            }
+        }
         &__loc {
             width: 130px;
         }

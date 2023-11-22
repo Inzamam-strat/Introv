@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- styles -->
-    <link rel="stylesheet" href="./assets/css/aos.css">
-    <link rel="stylesheet" href="./assets/css/slick.css">
-    <link rel="stylesheet" href="./assets/css/slick-theme.css">
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/aos.css">
+    <link rel="stylesheet" href="../assets/css/slick.css">
+    <link rel="stylesheet" href="../assets/css/slick-theme.css">
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../assets/css/style.css" />
     <!-- styles -->
     <title>Introv</title>
   </head>
@@ -34,8 +34,8 @@
               <h5 class="iv-form__heading iv-form__heading--sub">(Complimentary Registration. No Charges)</h5>
               <div class="iv-form__field-out">
                 <div class="iv-form__field">
-                  <input type="text" name="Name" id="Name" required="">
-                  <span class="iv-form__field-txt">Name*</span>
+                  <input type="text" id="Name" required="">
+                  <span class="iv-form__field-txt">First Name*</span>
                 </div>
                 <div class="iv-form__field">
                   <input type="text" name="Name" id="Name" required="">
@@ -120,19 +120,6 @@
     </div>
     <!-- title end -->
 
-    <!-- seminar themes start -->
-    <div class="iv-seminar" style="background-image: url('../assets/images/seminar-bg.png');">
-      <div class="content-wrapper">
-        <div class="iv-seminar__outer">
-          <h2 class="iv-heading">Seminar Themes</h2>
-          <div class="iv-seminar__img">
-            <img src="../assets/images/seminar-img.png" alt="">
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- seminar themes end -->
-
     <!-- speakers tile wrap start -->
     <div class="iv-speakers iv-speakers-bg" style="background-image: url(../assets/images/iv-speakers-bg-lines.png);">
       <div class="content-wrapper">
@@ -140,6 +127,28 @@
           <h2 class="iv-heading">Hear it from our renowned speakers...</h2>
           <!-- <div class="iv-speakers__wrap"> -->
             <!-- 1 -->
+            <div class="iv-speakers__tile">
+              <div class="iv-speakers__tile-img" style="--clr-main-blue: 201, 74, 74">
+                <img src="../assets/images/Dr.DarronSun.png" alt="">
+              </div>
+              <div class="iv-speakers__tile-desc">
+                <div class="iv-speakers__tile-name">
+                  Dr. Darron Sun
+                </div>
+                <div class="iv-speakers__tile-desg">
+                  Head of Information Technology, Trailblazer in PropTech, IT, FinTech
+                </div>
+                <ul class="iv-speakers__tile-list">
+                  <li class="iv-speakers__tile-item">
+                    Head of Information Technology in the public sector, steering strategic technology initiatives and championing digital transformation efforts
+                  </li>
+                  <li class="iv-speakers__tile-item">
+                    Honored as a Fellow member of the Chartered Institute of Management Accountants (CIMA)
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- 2 -->
             <div class="iv-speakers__tile">
               <div class="iv-speakers__tile-img">
                 <img src="../assets/images/JordanKostelac.png" alt="">
@@ -149,20 +158,14 @@
                   Jordan Kostelac
                 </div>
                 <div class="iv-speakers__tile-desg">
-                  Founder of Deploy. Proptech Visionary and Innovation Leader
+                  Founder of Deploy, PropTech Visionary and Innovation Leader
                 </div>
                 <ul class="iv-speakers__tile-list">
                   <li class="iv-speakers__tile-item">
-                    Ex-JLL’s director for proptech in the Asia Pacific.
+                    Ex-JLL’s director for proptech in the Asia Pacific
                   </li>
                   <li class="iv-speakers__tile-item">
-                    Key lead in the creation and deployment of PropTech platforms for the Asia Pacific region.
-                  </li>
-                  <li class="iv-speakers__tile-item">
-                    Business lead for drive JLL’s incubator programmes for tech-based projects.
-                  </li>
-                  <li class="iv-speakers__tile-item">
-                    Key lead guiding the exploration of how technology can positively disrupt built environments.
+                    Key lead in the creation and deployment of PropTech platforms for the Asia Pacific region
                   </li>
                   <li class="iv-speakers__tile-item">
                     12 years of experience in FMCG operations management
@@ -170,37 +173,9 @@
                 </ul>
               </div>
             </div>
-            <!-- 2 -->
-            <div class="iv-speakers__tile">
-              <div class="iv-speakers__tile-img">
-                <img src="../assets/images/Dr.DarronSun.png" alt="">
-              </div>
-              <div class="iv-speakers__tile-desc">
-                <div class="iv-speakers__tile-name">
-                  Dr. Darron Sun
-                </div>
-                <div class="iv-speakers__tile-desg">
-                  Trailblazer in PropTech, IT, FinTech, Internal Audit, and Cybersecurity
-                </div>
-                <ul class="iv-speakers__tile-list">
-                  <li class="iv-speakers__tile-item">
-                    Head of Information Technology in the public sector, steering strategic technology initiatives and championing digital transformation efforts.
-                  </li>
-                  <li class="iv-speakers__tile-item">
-                    Featured in the prestigious World CIO200 (HK) list.
-                  </li>
-                  <li class="iv-speakers__tile-item">
-                    Held senior positions in a prominent global financial institution, as Senior Audit Director and Vice President of Information Systems.
-                  </li>
-                  <li class="iv-speakers__tile-item">
-                    Honored as a Fellow member of the Chartered Institute of Management Accountants (CIMA)
-                  </li>
-                </ul>
-              </div>
-            </div>
             <!-- 3 -->
             <div class="iv-speakers__tile">
-              <div class="iv-speakers__tile-img">
+              <div class="iv-speakers__tile-img" style="--clr-main-blue: 153, 217, 64">
                 <img src="../assets/images/Vivien-Hui.png" alt="">
               </div>
               <div class="iv-speakers__tile-desc">
@@ -208,14 +183,14 @@
                   Vivien Hui
                 </div>
                 <div class="iv-speakers__tile-desg">
-                  Transformative IT Cloud Solutions Architect
+                  General Manager in Introv Ltd, IT Cloud Solutions Architect
                 </div>
                 <ul class="iv-speakers__tile-list">
                   <li class="iv-speakers__tile-item">
-                    Seasoned expert in facilitating IT cloud solutions tailored to address complex business challenges, including CRM and ERP in the Real estate industry.
+                    Seasoned expert in facilitating IT cloud solutions in Introv Ltd
                   </li>
                   <li class="iv-speakers__tile-item">
-                    Expert in navigating the intricacies of retail, real estate, and manufacturing sectors, contributing to successful IT cloud solution implementations.
+                    Expert in navigating the intricacies of retail, real estate, and manufacturing sectors, contributing to successful IT cloud solution implementations
                   </li>
                 </ul>
               </div>
@@ -231,9 +206,8 @@
     <div class="iv-event" style="background-image: url('../assets/images/seminar-bg.png');">
       <div class="content-wrapper">
         <div class="iv-event__outer">
-          <h3 class="iv-heading iv-heading--sub">Breakfast Networking</h3>
-          <h2 class="iv-heading">Fueling Growth through Automation</h2>
-          <h3 class="iv-heading iv-heading--sub">in the Hong Kong Real Estate Sector</h3>
+          <h3 class="iv-heading iv-heading--sub">Executive Roundtable</h3>
+          <h2 class="iv-heading">Fueling Growth through Automation in Real Estate</h2>
           <div class="iv-event__loc">
             <img src="../assets/images/event-loc.svg" alt="">
           </div>
@@ -244,7 +218,7 @@
           </div>
           <div class="iv-event__btn">
             <a href="#" class="iv-btn">
-                  <span>FREE REGISTRATION</span>
+                  <span>JOIN NOW</span>
             </a>
           </div>
         </div>
@@ -264,6 +238,7 @@
                     </li>
                     <li class="iv-program__event-list">
                         <h3 class="iv-program__event-list--title" data-date="8.45am">Opening Speech</h3>
+                        <h3 class="iv-program__event-list--title"><strong>Speaker:</strong><span class="iv-program__event-list--title--text-normal"> Calvin Dang</span></h3>
                     </li>
                     <li class="iv-program__event-list">
                         <h3 class="iv-program__event-list--title" data-date="8.50am"><strong>Topic:</strong><span class="iv-program__event-list--title--text-normal"> Insights on the Real Estate Industry Trends</span></h3>
@@ -279,13 +254,13 @@
                     </li>
                     <li class="iv-program__event-list">
                         <h3 class="iv-program__event-list--title" data-date="9.20am"><strong>Topic:</strong>
-                            <span class="iv-program__event-list--title--text-normal"> Strategies for Staying Competitive in the Dynamic Market</span>
+                            <span class="iv-program__event-list--title--text-normal"> Supercharge the P&L with Leasing Solutions</span>
                         </h3>
-                        <h3 class="iv-program__event-list--title"><strong>Panel Discusion</strong>
+                        <h3 class="iv-program__event-list--title"><strong>Speaker :<span class="iv-program__event-list--title--text-normal">Vivien Hui</span></strong>
                         </h3>
                     </li>
                     <li class="iv-program__event-list">
-                        <h3 class="iv-program__event-list--title" data-date="09.40am"><strong>Platform demo:</strong><span class="iv-program__event-list--title--text-normal">Getting real-time visibility and traceability</span></h3>
+                        <h3 class="iv-program__event-list--title" data-date="09.40am"><strong>Topic:</strong><span class="iv-program__event-list--title--text-normal">Strategies for Staying Competitive in the Dynamic Market Panel Discussion</span></h3>
                     </li>
                     <li class="iv-program__event-list">
                         <h3 class="iv-program__event-list--title" data-date="10.05pm">Q&A and Closing Remarks</h3>
@@ -310,7 +285,7 @@
                     </div>
                     <div class="iv-learn-tile__sec-2">
                         <h4 class="iv-learn-tile__sec-2-head">Technology Adoption Trends:</h4>
-                        <p class="iv-learn-tile__sec-2-txt">How the real estate industry is increasingly, adopting technology, including property management software, IoT devices, and smart building solutions.</p>
+                        <p class="iv-learn-tile__sec-2-txt">How the real estate industry is increasingly adopting technology, including property management software, IoT devices, and smart building solutions.</p>
                     </div>
                 </div>
 
@@ -361,7 +336,7 @@
             <h2 class="iv-heading">We look forward to seeing you at the event !</h2>
             <div class="iv-event__btn">
               <a href="#" class="iv-btn">
-                    <span>FREE REGISTRATION</span>
+                    <span>JOIN NOW</span>
               </a>
             </div>
             <div class="iv-event__time">
@@ -397,11 +372,11 @@
     <!-- body content end -->
 
     <!-- scripts -->
-    <script src="./assets/js/jquery.slim.min.js"></script>
-    <script src="./assets/js/aos.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <script src="./assets/js/bootstrap.bundle.min.js"></script>
-    <script src="./assets/js/script.js"></script>
+    <script src="../assets/js/jquery.slim.min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/slick.min.js"></script>
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/script.js"></script>
     <!-- scripts -->
   </body>
 </html>

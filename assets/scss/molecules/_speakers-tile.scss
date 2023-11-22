@@ -3,11 +3,14 @@
         display: flex;
         align-items: center;
         &-img{
+            --clr-main-blue : 0, 163, 232;
             width: 245px;
             height: 245px;
             border-radius: 50%;
             overflow: hidden;
             margin-right: $spacer-4;
+            border: 10px solid rgb(var(--clr-main-blue));
+            box-shadow: -7px 12px 17px rgba(var(--clr-main-blue),0.3);
             img{
                 width: 100%;
             }
@@ -21,6 +24,7 @@
             color: var(--clr-main-blue);
             font-weight: $font-bold;
             line-height: 1;
+            margin-bottom: $spacer-1;
         }
         &-desg{
             font-size:26px;
