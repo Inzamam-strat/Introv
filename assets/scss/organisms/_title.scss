@@ -3,7 +3,8 @@
     padding: $spacer-4 0;
     .iv-heading {
         &--white {
-            margin-bottom: $spacer-4;
+            width: 85%;
+            margin: 0 auto;
         }
  
         &--sub {
@@ -11,4 +12,13 @@
         }
     }
 
+}
+@include mobile-tablet {
+    .iv-banner-title {
+        .iv-heading {
+            &--white {
+                width: 100%;
+            }
+        }
+    }
 }
