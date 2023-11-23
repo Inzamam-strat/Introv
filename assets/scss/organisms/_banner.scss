@@ -23,7 +23,7 @@
     }
 
     &__logo {
-        width: 300px;
+        width: 75%;
         height: auto;
         margin-bottom: 50px;
         img {
@@ -46,7 +46,7 @@
     }
 
     &__date {
-        margin-top: 50px;
+        margin-top: $spacer-5;
         color: var(--clr-heading-blk);
         font-size: 35px;
         font-weight: 700;

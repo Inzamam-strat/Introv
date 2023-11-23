@@ -1,6 +1,6 @@
 .iv-speakers{
     background-color:var(--clr-grey);
-    padding: $spacer-6 0;
+    padding: 40px 0 70px 0;
     &-bg{
         background-repeat: no-repeat;
         background-position: center top;
@@ -12,13 +12,13 @@
     &__in{
         background-color:var(--clr-white);
         border-radius: 20px;
-        padding: $spacer-6;
+        padding: 40px 40px 70px;
     }
     .iv-heading{
         margin-bottom: $spacer-6;
     }
     &__tile{
-        margin-bottom: $spacer-6;
+        margin-bottom: 70px;
         &:last-child{
             margin-bottom: 0;
         }
@@ -28,6 +28,7 @@
     .iv-speakers{
         &__tile{
             flex-direction: column;
+            margin-bottom: $spacer-6;
             &-img{
                 margin-right: 0;
                 margin-bottom: $spacer-4;
