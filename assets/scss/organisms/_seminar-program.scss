@@ -6,7 +6,7 @@
   position: relative;
   overflow: hidden;
   &__in {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     padding: 0 $spacer-6;
   }
@@ -61,7 +61,7 @@
         display: none;
       }
       &--title {
-        font-size: 25px;
+        font-size: 24px;
         font-weight: $font-regular;
         color: #ffffff;
         margin: 0 0 $spacer-2 0;
@@ -132,7 +132,6 @@
       &-list {
         padding-bottom: 25px;
         &--title {
-          padding-top: 35px;
           display: inline-block;
           margin: 0 0 15px 0;
           &:before {
@@ -140,8 +139,8 @@
             left: 0;
             text-align: left;
           }
-          &:nth-child(2) {
-            padding-top: 0;
+          &:first-child {
+            padding-top: 35px;
           }
         }
         &:before {
